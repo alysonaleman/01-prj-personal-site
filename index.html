@@ -1,70 +1,80 @@
  <!-- Add your HTML content here -->
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Alyson Aleman— Web Developer</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Developer Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- FontAwesome Icons Link (LevelUp Bonus) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <!-- ===== Header / Navigation ===== -->
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="brand" href="#top">Alyson Aleman ✨</a>
 
-      <nav class="nav" aria-label="Primary navigation">
-        <a href="#bio">Bio</a>
-        <a href="#skills">Skills</a>
-        <a href="#portfolio">Projects</a>
-        <a href="#contact">Contact</a>
-      </nav>
+  <!-- LevelUp Bonus: Navigation Bar -->
+  <nav class="navbar">
+    <div class="logo">MyPortfolio</div>
+    <ul class="nav-links">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#bio">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero-section">
+    <h1>Hi, I'm <span class="highlight">[Alyson Aleman]</span> 👋</h1>
+    <p>Aspiring Web Developer & College Student</p>
+    <a href="#projects" class="btn">View My Work</a>
+  </section>
+
+  <!-- Bio Section -->
+  <section id="bio" class="section">
+    <h2>About Me</h2>
+    <p>
+      Welcome to my website! I am currently learning HTML and CSS as part of my college web development program. 
+      This single-page portfolio displays my journey, core technical skills, and upcoming development projects.
+    </p>
+  </section>
+
+  <!-- Skills Section with Icons (LevelUp Bonus) -->
+  <section id="skills" class="section gray-bg">
+    <h2>My Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-card"><i class="fa-brands fa-html5"></i> HTML5</div>
+      <div class="skill-card"><i class="fa-brands fa-css3-alt"></i> CSS3</div>
+      <div class="skill-card"><i class="fa-brands fa-js"></i> JavaScript</div>
+      <div class="skill-card"><i class="fa-brands fa-github"></i> Git & GitHub</div>
     </div>
-  </header>
+  </section>
 
-  <main class="container">
-    
-    <!-- Hero Section -->
-    <section id="top" class="hero-section">
-      <h1>Hi, I'm Alyson 🌸</h1>
-      <p>Welcome to my portfolio! I'm learning web development and building cute, clean projects.</p>
-    </section>
-
-    <!-- Bio Section -->
-    <section id="bio">
-      <h2>About Me</h2>
-      <p>I am a web development student sharing my coding journey and coursework projects.</p>
-    </section>
-
-    <!-- Skills Section -->
-    <section id="skills">
-      <h2>My Skills</h2>
-      <ul>
-        <li>HTML5 Structure</li>
-        <li>CSS3 Styling</li>
-        <li>Git & GitHub</li>
-      </ul>
-    </section>
-
-    <!-- Portfolio / Projects Section -->
-    <section id="portfolio">
-      <h2>Projects</h2>
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <h2>My Projects</h2>
+    <div class="projects-grid">
       <div class="project-card">
-        <h3>Project 1</h3>
-        <p>Description of my first college web development project.</p>
+        <h3>Portfolio Website</h3>
+        <p>A responsive single-page site built with HTML, CSS, and modern web design principles.</p>
       </div>
-    </section>
+      <div class="project-card">
+        <h3>Upcoming App</h3>
+        <p>A placeholder card for my next web development coursework project.</p>
+      </div>
+    </div>
+  </section>
 
-    <!-- Contact Section -->
-    <section id="contact">
-      <h2>Get in Touch</h2>
-      <p>Feel free to reach out as I build and expand my portfolio!</p>
-    </section>
+  <!-- Contact Section -->
+  <section id="contact" class="section gray-bg">
+    <h2>Get in Touch</h2>
+    <p>Feel free to reach out to me via email or follow my coding journey on GitHub!</p>
+  </section>
 
-  </main>
-
+  <!-- Footer -->
   <footer>
-    <p>&copy; 2026 Alyson Aleman</p>
+    <p>&copy; 2026 [Alyson Aleman]. Built with HTML & CSS.</p>
   </footer>
 
 </body>
+</html>
